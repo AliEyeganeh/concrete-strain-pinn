@@ -13,6 +13,20 @@ This project presents a lightweight neural network for predicting strain in conc
 ## 📈 Final Model Performance
 - **Test RMSE**: 66.89 µε
 
+## 📊 Model Evaluation Plots
+
+### 🟦 Parity Plot
+Shows predicted strain vs. true strain.
+
+![Parity Plot](plots/parity_plot.png)
+
+---
+
+### 🟥 Residuals Plot
+Shows prediction error (Predicted - True) across the test set.
+
+![Residual Plot](plots/residuals_plot.png)
+
 ## 📁 Project Structure
 ```
 data/         # Raw & split data (CSV)
