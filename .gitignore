@@ -1,0 +1,34 @@
+# LaTeX
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.run.xml
+*.synctex*
+*.toc
+*.out
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data/outputs (keep repo light)
+data/*
+!data/README.md
+outputs/
+checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
